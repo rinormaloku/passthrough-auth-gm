@@ -1,0 +1,430 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jul 24 18:26:00 2022
+
+# Variables
+
+# environment
+GO111MODULE = on
+# environment
+JAVA_HOME = /home/rinor/.sdkman/candidates/java/current
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GNOME_SHELL_SESSION_MODE = pop
+# environment
+SDKMAN_PLATFORM = linuxx64
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+TERMINATOR_DBUS_NAME = net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f
+# environment
+GIMME_ENV = /home/rinor/.gimme/envs/go1.18.1.env
+# environment
+GLOO_LICENSE_KEY = eyJhZGRPbnMiOiJncmFwaHFsIiwiZXhwIjoxNzQyMzg3MzgzLCJpYXQiOjE2NTU5ODczODMsImsiOiJJWkhpQ1EiLCJsdCI6ImVudCIsInByb2R1Y3QiOiJnbG9vIn0.MuUUQYvrfpD_TtiUH5TCGiv6PWiV-HBJw9VXFjWdsy8
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+MANDATORY_PATH = /usr/share/gconf/pop.mandatory.path
+# environment
+VSCODE_CWD = /home/rinor/go/src/github.com/solo-io/gloo/docs/examples
+# environment
+WINDOWPATH = 2
+# environment
+GLOO_MESH_LICENSE_KEY = eyJhZGRPbnMiOiIiLCJleHAiOjE3NDAwNDUxMzEsImlhdCI6MTY1MzY0NTEzMSwiayI6Im9BMGxqQSIsImx0IjoidHJpYWwiLCJwcm9kdWN0IjoiZ2xvby1tZXNoLWdhdGV3YXkifQ.eQxyOITAFs0Bor3wzl7cnTA1P7Q18TKLhBojS83mnRw
+# environment
+NVM_DIR = /home/rinor/.nvm
+# environment
+TERMINATOR_UUID = urn:uuid:890d1dd9-0b59-4a99-8cbb-4b2d97f001dd
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# environment
+GOPATH = /home/rinor/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+MAX_CONCURRENT_PROTOCS = 6
+# environment
+CLUSTER2 = cluster2
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+LICENSE_KEY_EDGE = eyJhZGRPbnMiOiJncmFwaHFsIiwiZXhwIjoxNzQyMzg3MzgzLCJpYXQiOjE2NTU5ODczODMsImsiOiJJWkhpQ1EiLCJsdCI6ImVudCIsInByb2R1Y3QiOiJnbG9vIn0.MuUUQYvrfpD_TtiUH5TCGiv6PWiV-HBJw9VXFjWdsy8
+# default
+.VARIABLES := 
+# environment
+PWD = /home/rinor/work/solo/grpc-passthrough-auth
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/share/pop:/usr/share/gnome:/home/rinor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/rinor/go/src/github.com/solo-io/gloo/docs/examples/grpc-passthrough-auth
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/rinor/.nvm/versions/node/v16.14.2/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/rinor/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
+# makefile
+CURDIR := /home/rinor/work/solo/grpc-passthrough-auth
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/rinor/.nvm/versions/node/v16.14.2/bin
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GIT_ASKPASS = /usr/share/code/resources/app/extensions/git/dist/askpass.sh
+# environment
+XDG_SESSION_DESKTOP = pop
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/rinor/.oh-my-zsh
+# environment
+VSCODE_PID = 632243
+# environment
+SDKMAN_DIR = /home/rinor/.sdkman
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/10748,unix/pop-os:/tmp/.ICE-unix/10748
+# automatic
+*F = $(notdir $*)
+# environment
+SDKMAN_VERSION = 15.13.2
+# environment
+IBUS_DISABLE_SNOOPER = 1
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GITHUB_TOKEN = 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
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/rinor/.gimme/versions/go1.18.1.linux.amd64/bin:/home/rinor/google-cloud-sdk/bin:/home/rinor/.rbenv/shims:/home/rinor/.pyenv/plugins/pyenv-virtualenv/shims:/home/rinor/.gloo-mesh/bin:/home/rinor/custom-env/scripts:/home/rinor/.pyenv/bin:/home/rinor/go/bin:/home/rinor/.krew/bin:/home/rinor/.gloo/bin:/home/rinor/.gloo-mesh/bin:/home/rinor/google-cloud-sdk/bin:/home/rinor/.sdkman/candidates/maven/current/bin:/home/rinor/.sdkman/candidates/java/current/bin:/home/rinor/.nvm/versions/node/v16.14.2/bin:/home/rinor/.rbenv/shims:/home/rinor/.pyenv/plugins/pyenv-virtualenv/shims:/home/rinor/.gloo-mesh/bin:/home/rinor/custom-env/scripts:/home/rinor/.pyenv/bin:/home/rinor/go/bin:/home/rinor/.krew/bin:/home/rinor/.gloo/bin:/home/rinor/.gloo-mesh/bin:/home/rinor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rinor/.local/share/JetBrains/Toolbox/scripts
+# environment
+LICENSE_KEY_MESH = eyJhZGRPbnMiOiIiLCJleHAiOjE3NDAwNDUxMzEsImlhdCI6MTY1MzY0NTEzMSwiayI6Im9BMGxqQSIsImx0IjoidHJpYWwiLCJwcm9kdWN0IjoiZ2xvby1tZXNoLWdhdGV3YXkifQ.eQxyOITAFs0Bor3wzl7cnTA1P7Q18TKLhBojS83mnRw
+# default
+MAKEFILES := 
+# environment
+VSCODE_GIT_IPC_HANDLE = /run/user/1000/vscode-git-eecb1070dd.sock
+# environment
+VSCODE_GIT_ASKPASS_NODE = /usr/share/code/code
+# automatic
+^F = $(notdir $^)
+# environment
+VSCODE_GIT_ASKPASS_MAIN = /usr/share/code/resources/app/extensions/git/dist/askpass-main.js
+# environment
+SDKMAN_CANDIDATES_DIR = /home/rinor/.sdkman/candidates
+# environment
+GOROOT = /home/rinor/.gimme/versions/go1.18.1.linux.amd64
+# environment
+PYENV_VIRTUALENV_INIT = 1
+# environment
+INVOCATION_ID = 8cfea06457774c6e83b2043e98c3a15d
+# environment
+USERNAME = rinor
+# environment
+TERM_PROGRAM = vscode
+# environment
+GOPRIVATE = github.com/solo-io,github.com/rinormaloku
+# automatic
+?F = $(notdir $?)
+# environment
+KO_DOCKER_REPO = rinormaloku
+# environment
+GTK_IM_MODULE = ibus
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = pop
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Unity
+# environment
+MAVEN_HOME = /home/rinor/.sdkman/candidates/maven/current
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = rinor
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/terminator.desktop
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 10882
+# environment
+DISPLAY = :1
+# environment
+USER = rinor
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+CLUSTER1 = cluster1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/pop.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 7368
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 669296
+# environment
+GLOO_EDGE_LICENSE_KEY = eyJhZGRPbnMiOiJncmFwaHFsIiwiZXhwIjoxNzQyMzg3MzgzLCJpYXQiOjE2NTU5ODczODMsImsiOiJJWkhpQ1EiLCJsdCI6ImVudCIsInByb2R1Y3QiOiJnbG9vIn0.MuUUQYvrfpD_TtiUH5TCGiv6PWiV-HBJw9VXFjWdsy8
+# environment
+PAGER = less
+# environment
+_ = /usr/bin/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+NVM_CD_FLAGS = -q
+# environment
+JOURNAL_STREAM = 8:86717
+# environment
+GOMODCACHE = /home/rinor/go/pkg/mod
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+HOME = /home/rinor
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2a65fcbe-1.69.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+RBENV_SHELL = zsh
+# environment
+GLOO_MESH_GATEWAY_LICENSE_KEY = eyJhZGRPbnMiOiIiLCJleHAiOjE3NDAwNDUxMzEsImlhdCI6MTY1MzY0NTEzMSwiayI6Im9BMGxqQSIsImx0IjoidHJpYWwiLCJwcm9kdWN0IjoiZ2xvby1tZXNoLWdhdGV3YXkifQ.eQxyOITAFs0Bor3wzl7cnTA1P7Q18TKLhBojS83mnRw
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# environment
+MGMT = mgmt
+# environment
+ISTIO_VERSION = 1.13.2
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+TERM_PROGRAM_VERSION = 1.69.2
+ 
+# environment
+GDMSESSION = pop
+# variable set hash-table stats:
+# Load=148/1024=14%, Rehash=0, Collisions=11/181=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 20845714): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-24 18:24:34.149466745
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	@rm -fr server
+
+server:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := server
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 5):
+	@CGO_ENABLED=0 GOOS=linux go build -a --ldflags '-extldflags "-static"' \
+		-tags "netgo" -installsuffix netgo \
+		-o server
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: server docker-local
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+docker-local: server
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	docker build -t rinormaloku/passthrough-grpc-service-example .
+
+docker-push:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	docker push rinormaloku/passthrough-grpc-service-example
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: docker-local server
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 24 / storage = 245 B / avg = 10 B
+# current buf: size = 8162 B / used = 245 B / count = 24 / avg = 10 B
+
+# strcache performance: lookups = 42 / hit rate = 42%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=0/42=0%
+# Finished Make data base on Sun Jul 24 18:26:00 2022
+
+ 
