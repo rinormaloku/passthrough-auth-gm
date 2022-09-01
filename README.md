@@ -12,13 +12,13 @@ Using the PassThroughAuth server for authorizing requests and for appending addi
 Let's create a nanespace where we can run our backend services.
 
 ```
-kubectl create ns backend                    
-kubectl label namespace backend istio.io/rev=1-12 
+# should have been created earlier in the workshop
+# kubectl create ns bookinfo-backends
 ```
 
 If you don't have any services running, you can run this sample service where you can target requests.
 ```
-kubectl -n backend apply -f ./backend-service.yaml
+kubectl -n bookinfo-backends apply -f ./backend-service.yaml
 ```
 
 ###  2. <a name='Deplyingtheext-authpassthroughservice'></a>Deplying the ext-auth passthrough service
@@ -33,7 +33,7 @@ In this example the passthrough service will do these two actions:
 Apply it to the cluster:
 
 ```
-kubectl -n backend apply -f ext-auth-passthrough-service.yaml
+kubectl -n bookinfo-backends apply -f ext-auth-passthrough-service.yaml
 ```
 
 ###  3. <a name='ConfigureGlooMeshtousethepassthroughserviceforauthorization'></a>Configure Gloo Mesh to use the passthrough service for authorization
@@ -44,7 +44,7 @@ apiVersion: admin.gloo.solo.io/v2
 kind: ExtAuthServer
 metadata:
   name: ext-auth-server
-  namespace: backend
+  namespace: bookinfo-backends
 spec:
   destinationServer:
     ref:
@@ -62,22 +62,22 @@ apiVersion: security.policy.gloo.solo.io/v2
 kind: ExtAuthPolicy
 metadata:
   name: policy
-  namespace: backend
+  namespace: bookinfo-backends
 spec:
   applyToDestinations:
   - selector:
       name: backend
-      namespace: backend
+      namespace: bookinfo-backends
       cluster: cluster1
   config:
     server:
       name: ext-auth-server
-      namespace: backend
+      namespace: bookinfo-backends
     glooAuth:
       configs:
       - passThroughAuth:
           grpc:
-            address: example-grpc-auth-service.backend.svc.cluster.local:9001
+            address: example-grpc-auth-service.bookinfo-backends.svc.cluster.local:9001
 ```
 
 ####  3.1. <a name='HTTPHeaderscanbeappendedforrequeststotheupstream'></a>HTTP Headers can be appended for requests to the upstream
@@ -85,7 +85,7 @@ spec:
 Make a request:
 ```
 kubectl run -i -n backend --rm --restart=Never dummy30 \
---image=curlimages/curl --command -- sh -c 'curl -v backend.backend:8080'
+--image=curlimages/curl --command -- sh -c 'curl -v backend.bookinfo-backends:8080'
 
 ```
 
