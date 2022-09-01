@@ -7,6 +7,9 @@ Using the PassThroughAuth server for authorizing requests and for appending addi
 * * [HTTP Headers can be appended for requests to the upstream](#HTTPHeaderscanbeappendedforrequeststotheupstream)
 * * [Requests can be rejected by the PassThroughAuth service](#RequestscanberejectedbythePassThroughAuthservice)
 
+
+![Diagram](./images/diagram.png)
+
 ###  1. <a name='Deploysomesampleservices'></a>Deploy some sample services
 
 Let's create a nanespace where we can run our backend services.
